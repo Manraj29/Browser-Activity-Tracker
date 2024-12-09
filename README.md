@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
 # Browser Activity Tracker
 
 This is a Chrome extension that helps you track your website usage, including the time spent on websites, visit counts, and categorizing websites by type (e.g., Social Media, Shopping, Productivity). It also provides tips for managing your online time effectively.
@@ -72,4 +62,3 @@ This is a Chrome extension that helps you track your website usage, including th
 </ul>
 
 Thanks!
->>>>>>> d4d28618ed7ee44aa0ddd1d6f623b900ab62f4b5
