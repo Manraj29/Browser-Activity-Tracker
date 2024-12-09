@@ -1,0 +1,97 @@
+.popup-container {
+    width: 400px;
+    padding: 20px;
+    font-family: 'Roboto', Arial, sans-serif;
+    background: #f4f6f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 22px !important;
+    color: #2c3e50 !important;
+    margin-bottom: 20px !important;
+    font-weight: bold;
+  }
+  
+  .site-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .site-item:hover {
+    transform: scale(1.02);
+    background: #f9fafb;
+    cursor: pointer;
+  }
+  
+  .site-item span {
+    font-size: 14px !important;
+    color: #34495e;
+    font-weight: 500;
+  }
+  
+  .active-websites, .site-list, .closed-websites {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 18px !important;
+    margin-bottom: 12px !important;
+    color: #2c3e50;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px !important;
+  }
+  
+  .site-count {
+    text-align: center;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+
+  .site-count h1 {
+    border-bottom: 2px solid #ddd !important;
+  }
+
+  .site-count span:hover {
+    color: #2980b9;
+    cursor: pointer;
+    transform: scale(1.02);
+  }
+  
+  .site-count span {
+    color: #2980b9;
+    font-weight: bold;
+  }
+  
+/* ADD CSS FOR CUSTOM SCRROLLBAR */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+

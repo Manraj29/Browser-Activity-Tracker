@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Browser Activity Tracker",
+  "version": "1.0",
+  "permissions": [
+    "tabs",
+    "storage",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "home.html",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "index.html"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}
